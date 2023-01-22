@@ -1,6 +1,17 @@
-//custom.scss
+$white: #ffffff;
 
-$primary: teal;
-$secondary: green;
+$theme-colors: (
+    "light":      #d3dcea,
+    "dark":       #121436,
+    "primary":    #0c3883,
+    "secondary":  #f61b47,
+    "info":       #4e7092,
+    "success":    #0e9959,
+    "warning":    #dfc80f,
+    "danger":     #ec1a06,
+);
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+@import "../bower_components/material-kit/assets/scss/material-kit.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
